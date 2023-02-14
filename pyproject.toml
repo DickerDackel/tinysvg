@@ -10,7 +10,6 @@ version = "0.1.0"
 authors = [
     {name = "Michael Lamertz", email = "michael.lamertz@gmail.com"},
 ]
-license="MIT License"
 
 dependencies = [ 'jinja2' ]
 
