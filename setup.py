@@ -6,5 +6,5 @@ setup(
     author="Michael Lamertz",
     author_email="michael.lamertz@gmail.com",
     url="https://github.com/dickerdackel/tinysvg",
-    packages=[],
+    packages=['tinysvg'],
 )
