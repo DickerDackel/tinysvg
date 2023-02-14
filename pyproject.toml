@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tinysvg"
+description = "A brute force f-string implementation of some parts of svg"
+version = "0.1.0"
+
+authors = [
+    {name = "Michael Lamertz", email = "michael.lamertz@gmail.com"},
+]
+license="MIT License"
+
+dependencies = [ 'jinja2' ]
+
+[tool.pylint.'MESSAGES CONTROL']
+# C0103: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+# C0301: Line too long (116/100) (line-too-long)
+# C0114: Missing module docstring (missing-module-docstring)
+# C0116: Missing function or method docstring (missing-function-docstring)
+# R0911: Too many return statements (10/6) (too-many-return-statements)
+
+disable = "C0103,C0301,C0114,C0116,R0911"
+
